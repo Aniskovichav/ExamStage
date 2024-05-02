@@ -1,43 +1,35 @@
 package by.itstep.aniskovich.java.examstage.Task02.model.logic;
 
-import by.itstep.aniskovich.java.examstage.Task02.model.entity.Image;
-import by.itstep.aniskovich.java.examstage.Task02.util.ImageRotatorUI;
+import by.itstep.aniskovich.java.examstage.Task02.model.entity.ImageProcessor;
+import by.itstep.aniskovich.java.examstage.Task02.util.ImageCreator;
 
 public class ImageRotator {
-//    private Image image;
-//
-//    public ImageRotator(Image image) {
-//        this.image = image;
-//
-//    }
+    private ImageProcessor image;
+    private ImageCreator view;
+
+    public ImageRotator(ImageProcessor image, ImageCreator view) {
+        this.image = image;
+        this.view = view;
+    }
 
     public void rotateMatrix() {
-        int[][] matrix;
-        char direction;
-        try {
-            matrix = view.readMatrix();
-            direction = ImageRotatorUI.readDirection();
-        } catch (Exception e) {
-            System.out.println("Error reading input: " + e.getMessage());
-            return;
-        }
+        int[][] matrix = view.readMatrix();
+        char direction = view.getRotationDirection();
 
-        try {
-            image = new Image(matrix);
+        image = new ImageProcessor(matrix);
 
-            int[][] rotatedMatrix;
+        int[][] rotatedMatrix;
+        try {
             if (direction == 'R') {
                 rotatedMatrix = image.rotateClockwise();
             } else if (direction == 'L') {
                 rotatedMatrix = image.rotateCounterClockwise();
             } else {
-                System.out.println("Invalid rotation direction.");
-                return;
+                throw new IllegalArgumentException("Invalid rotation direction.");
             }
-
             view.displayMatrix(rotatedMatrix);
-        } catch (Exception e) {
-            System.out.println("Error rotating matrix: " + e.getMessage());
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
     }
 }

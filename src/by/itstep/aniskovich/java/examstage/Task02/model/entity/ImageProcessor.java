@@ -1,11 +1,9 @@
 package by.itstep.aniskovich.java.examstage.Task02.model.entity;
 
-import java.util.Arrays;
-
-public class Image {
+public class ImageProcessor {
     private int[][] matrix;
 
-    public Image(int[][] matrix) {
+    public ImageProcessor(int[][] matrix) {
         this.matrix = matrix;
     }
 
@@ -35,17 +33,5 @@ public class Image {
         }
 
         return rotatedMatrix;
-    }
-
-    public String displayImage() {
-        StringBuilder builder = new StringBuilder();
-        for (int[] row : matrix) {
-            for (int cell : row) {
-                builder.append(cell).append(" ");
-            }
-            builder.append("\n");
-        }
-
-        return builder.toString();
     }
 }

@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cedf57b-8f40-48e1-bd09-dddf14eab47f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamStage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/controller/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/model/StudentDiary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/controller/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/entity/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/logic/ImageRotator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/ImageRotatorUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/InputValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/MatrixInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/view/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/by.itstep.aniskovich.java.examstage/Task01/model/StudentDiaryTest.java" afterDir="false" />
+    <list default="true" id="1cedf57b-8f40-48e1-bd09-dddf14eab47f" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/controller/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/controller/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/model/StudentDiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/model/StudentDiary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/controller/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/controller/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/entity/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/entity/ImageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/logic/ImageRotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/logic/ImageRotator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/ImageRotatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/ImageCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/InputValue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +62,7 @@
       <recent name="by.itstep.aniskovich.java.examstage.Task01.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task02">
+  <component name="RunManager" selected="Application.Task01">
     <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.itstep.aniskovich.java.examstage.Task01.controller.Task01" />
       <module name="ExamStage" />
@@ -88,10 +79,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task02" />
         <item itemvalue="Application.Task01" />
+        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
 </project>
