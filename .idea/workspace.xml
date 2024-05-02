@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cedf57b-8f40-48e1-bd09-dddf14eab47f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamStage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/controller/Task01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task01/model/StudentDiary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/controller/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/entity/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/model/logic/ImageRotator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/ImageRotatorUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/InputValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/util/MatrixInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/itstep/aniskovich/java/examstage/Task02/view/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by.itstep.aniskovich.java.examstage/Task01/model/StudentDiaryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2fv13o5Kz8esppbpA4wf0D9664V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "Z:/Java Шаг/1 Stage/Stage16",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\Java Шаг\1 Stage\ExamStage\ExamStage\test" />
+      <recent name="Z:\Java Шаг\1 Stage\ExamStage\ExamStage\src\by\itstep\aniskovich\java\examstage\Task02" />
+      <recent name="Z:\Java Шаг\1 Stage\ExamStage\ExamStage\src\by\itstep\aniskovich\java\examstage\Task01\view\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Java Шаг\1 Stage\ExamStage\ExamStage" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.itstep.aniskovich.java.examstage.Task01.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task02">
+    <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itstep.aniskovich.java.examstage.Task01.controller.Task01" />
+      <module name="ExamStage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itstep.aniskovich.java.examstage.Task02.controller.Task02" />
+      <module name="ExamStage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.Task01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
